@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "968089963464",
+    "project_id": "passwordsapp-320e7",
+    "storage_bucket": "passwordsapp-320e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:968089963464:android:7eb77de8c69b3bd6f98efd",
+        "android_client_info": {
+          "package_name": "com.example.passwordApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "968089963464-ua6d97gmk7qge4bnh41treh7iga69114.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.passwordApp",
+            "certificate_hash": "8a8334aee2c8081b3fe9c50a7fec03f635078e28"
+          }
+        },
+        {
+          "client_id": "968089963464-l6gaisrktrv5ke4mpt37jv1khs2fkn3i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA08LnEWddYjrWPHW5JjIIP9VCNSkI6NWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "968089963464-l6gaisrktrv5ke4mpt37jv1khs2fkn3i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

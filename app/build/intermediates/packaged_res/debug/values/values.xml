@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="purple_200">#50CDFF</color>
+    <color name="purple_500">#00A2E3</color>
+    <color name="purple_700">#008AC1</color>
+    <color name="teal_200">#88DA03</color>
+    <color name="teal_700">#608E17</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="accept">Accept</string>
+    <string name="app_name">Daily!</string>
+    <string name="darkMode">Dark mode</string>
+    <string name="darkModeSP">Dark Mode</string>
+    <string name="default_web_client_id" translatable="false">968089963464-l6gaisrktrv5ke4mpt37jv1khs2fkn3i.apps.googleusercontent.com</string>
+    <string name="delete">Delete</string>
+    <string name="description">Description</string>
+    <string name="error">Error!</string>
+    <string name="gcm_defaultSenderId" translatable="false">968089963464</string>
+    <string name="google_api_key" translatable="false">AIzaSyA08LnEWddYjrWPHW5JjIIP9VCNSkI6NWo</string>
+    <string name="google_app_id" translatable="false">1:968089963464:android:7eb77de8c69b3bd6f98efd</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA08LnEWddYjrWPHW5JjIIP9VCNSkI6NWo</string>
+    <string name="google_storage_bucket" translatable="false">passwordsapp-320e7.appspot.com</string>
+    <string name="loading">Loading…</string>
+    <string name="logIn">Log in</string>
+    <string name="logIn_failed">Log in failed.</string>
+    <string name="logIn_prompt">Log in to an existing account. </string>
+    <string name="logOut">Log out</string>
+    <string name="missing_text">MISSING TEXT!</string>
+    <string name="news">News</string>
+    <string name="no_text">No text!</string>
+    <string name="password">Password</string>
+    <string name="password_cannot_be_blank">Password cannot be blank!</string>
+    <string name="passwords">Passwords</string>
+    <string name="project_id" translatable="false">passwordsapp-320e7</string>
+    <string name="returnText">Return</string>
+    <string name="settings">Settings</string>
+    <string name="signIn_prompt">Don\'t have an account?\nSign up!</string>
+    <string name="signUp">Sign up</string>
+    <string name="signUp_failed">Sign up failed.</string>
+    <string name="site_name">Site name</string>
+    <string name="title">Title</string>
+    <string name="username">Username</string>
+    <string name="username_cannot_be_blank">Username cannot be blank!</string>
+    <string name="welcome_to_daily">Welcome to Daily!</string>
+    <style name="Theme.PasswordApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        
+    </style>
+</resources>
