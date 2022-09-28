@@ -1,7 +1,7 @@
 package com.example.passwordApp.fragment
 
-import android.content.Context
 import android.content.Intent
+import android.content.res.Configuration
 import android.os.Bundle
 import android.view.*
 import android.widget.Button
@@ -43,7 +43,13 @@ class SettingFragment : Fragment() {
         logOutButton = view.findViewById(R.id.logOutButton)
         logOutButton.setOnClickListener { handleLogOut() }
         switch = view.findViewById(R.id.darkModeSwitch)
-        val sharedPref = activity?.getPreferences(Context.MODE_PRIVATE) ?: return
+
+        val nightModeFlags = requireContext().resources.configuration.uiMode and
+                Configuration.UI_MODE_NIGHT_MASK
+
+        if (nightModeFlags == Configuration.UI_MODE_NIGHT_YES) {
+            switch.isChecked = true
+        }
 
         switch.setOnCheckedChangeListener { _, isChecked ->
             if (!isChecked) {
