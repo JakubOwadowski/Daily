@@ -24,7 +24,14 @@
     <string name="delete">Delete</string>
     <string name="news">News</string>
     <string name="passwords">Passwords</string>
+    <string name="sensors">Sensors</string>
     <string name="settings">Settings</string>
     <string name="returnText">Return</string>
     <string name="darkModeSP">Dark Mode</string>
+    <string name="text_error">Not yet measured!</string>
+    <string name="text_main_temperature_title">Temperature</string>
+    <string name="text_main_acc_title">Acceleration</string>
+    <string name="text_main_light_title">Light</string>
+    <string name="text_main_hum_title">Humidity</string>
+    <string name="text_main_pre_title">Pressure</string>
 </resources>

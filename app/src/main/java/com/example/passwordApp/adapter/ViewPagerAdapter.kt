@@ -4,13 +4,14 @@ import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.example.passwordApp.fragment.NewsReelFragment
 import com.example.passwordApp.fragment.PasswordsFragment
+import com.example.passwordApp.fragment.SensorsFragment
 
 class ViewPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
 
     var fragment: Fragment? = null
 
     override fun getItemCount(): Int {
-        return 2
+        return 3
     }
 
     override fun createFragment(position: Int): Fragment {
@@ -19,6 +20,9 @@ class ViewPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment) {
         }
         if (position == 1) {
             fragment = PasswordsFragment()
+        }
+        if (position == 2) {
+            fragment = SensorsFragment()
         }
         return fragment!!
     }

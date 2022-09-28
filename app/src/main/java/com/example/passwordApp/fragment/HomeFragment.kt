@@ -42,8 +42,10 @@ class HomeFragment : Fragment() {
         TabLayoutMediator(tabLayout, viewPager) { tab, position ->
             if (position == 0) {
                 tab.text = getText(R.string.news)
-            } else {
+            } else if (position == 1) {
                 tab.text = getText(R.string.passwords)
+            } else {
+                tab.text = getText(R.string.sensors)
             }
         }.attach()
     }
